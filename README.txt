@@ -31,7 +31,6 @@ More features coming in next releases.
 
 = What are the css classes to style the widget ? =
 
-
 `/* ul list wrapper */
 .wp-newsfw-list {}
 
