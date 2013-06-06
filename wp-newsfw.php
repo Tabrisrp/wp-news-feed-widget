@@ -37,16 +37,10 @@ class RP_Wpnwf extends WP_Widget {
 
 	/**
 	 * Specifies the classname and description, instantiates the widget,
-	 * loads localization files, and includes necessary stylesheets and JavaScript.
+	 * includes necessary stylesheets and JavaScript.
 	 */
 	public function __construct() {
 
-		// load plugin text domain
-		add_action( 'init', array( $this, 'widget_textdomain' ) );
-
-		// Hooks fired when the Widget is activated and deactivated
-		register_activation_hook( __FILE__, array( $this, 'activate' ) );
-		register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
 
 		parent::__construct(
 			'wp-newsfw',
@@ -140,14 +134,6 @@ class RP_Wpnwf extends WP_Widget {
 	/*--------------------------------------------------*/
 
 	/**
-	 * Loads the Widget's text domain for localization and translation.
-	 */
-	public function widget_textdomain() {
-		load_plugin_textdomain( 'wp-newsfw', false, plugin_dir_path( __FILE__ ) . '/lang/' );
-
-	} // end widget_textdomain
-
-	/**
 	 * Registers and enqueues widget-specific styles.
 	 */
 	public function register_widget_styles() {
@@ -167,3 +153,8 @@ class RP_Wpnwf extends WP_Widget {
 } // end class
 
 add_action( 'widgets_init', create_function( '', 'register_widget("RP_Wpnwf");' ) );
+
+function wp_newsfw_textdomain() {
+    load_plugin_textdomain( 'wp-newsfw', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+}
+add_action( 'plugins_loaded', 'wp_newsfw_textdomain' );

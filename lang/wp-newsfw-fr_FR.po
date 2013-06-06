@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WP News feed widget\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-06 18:22+0100\n"
-"PO-Revision-Date: 2013-06-06 18:25+0100\n"
+"PO-Revision-Date: 2013-06-06 19:04+0100\n"
 "Last-Translator: Rémy Perona <remperona@gmail.com>\n"
 "Language-Team: Rémy Perona <remperona@gmail.com>\n"
 "Language: fr_FR\n"
@@ -19,44 +19,44 @@ msgstr ""
 
 #: ../plugin.php:53
 msgid "WP News Feed Widget"
-msgstr ""
+msgstr "WP Widget flux d'actualités"
 
 #: ../plugin.php:56
 msgid "A news feed widget with pagination"
-msgstr ""
+msgstr "Widget qui affiche vos dernières actualités avec pagination"
 
 #: ../plugin.php:123
 msgid "News feed"
-msgstr ""
+msgstr "Flux d'actualités"
 
 #: ../plugin.php:163
 msgid "Prev"
-msgstr ""
+msgstr "Préc"
 
 #: ../plugin.php:163
 msgid "Next"
-msgstr ""
+msgstr "Suiv"
 
 #: ../views/admin.php:3
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: ../views/admin.php:9
 msgid "Number of posts to include"
-msgstr ""
+msgstr "Nombre d'articles à inclure"
 
 #: ../views/admin.php:12
 msgid "-1 will include all posts"
-msgstr ""
+msgstr "-1 incluera tous les articles"
 
 #: ../views/admin.php:16
 msgid "Use plugin's css ?"
-msgstr ""
+msgstr "Utiliser le css de l'extension ?"
 
 #: ../views/admin.php:19
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: ../views/admin.php:20
 msgid "No"
-msgstr ""
+msgstr "Non"
