@@ -1,4 +1,4 @@
-=== Widget Name ===
+=== WP News feed widget ===
 
 Contributors: tabrisrp
 Donate link: ttps://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6V74BBTNMWW38&lc=FR&item_name=R%c3%a9my%20Perona&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
@@ -19,7 +19,7 @@ The pagination is set to 10 items per page.
 
 In the widget configuration, you can set the number of posts you want to include, and disable the plugin's css if you want to apply your own.
 
-More features coming in next releases.
+More features coming in future releases.
 
 == Installation ==
 
@@ -51,9 +51,9 @@ More features coming in next releases.
     margin-left: 5px;
 }`
 
-= What about foo bar? =
+= Why can't I configure more options ? =
 
-Answer to foo bar dilemma.
+More configuration is coming in future releases.
 
 == Screenshots ==
 
