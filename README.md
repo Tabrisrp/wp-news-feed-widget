@@ -1,17 +1,8 @@
-=== Widget Name ===
-
-Contributors: tabrisrp
-Donate link: ttps://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6V74BBTNMWW38&lc=FR&item_name=R%c3%a9my%20Perona&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
-Tags: widget, news
-Requires at least: 3.2
-Tested up to: 3.6
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# WP News feed widget
 
 A simple news feed widget with pagination
 
-== Description ==
+## Description
 
 WP News feed widget is a simple news feed widget, with pagination, to display the latest news on your website. It will display a list of your latest news titles, with the publication time (if today) or the publication date next to it.
 
@@ -19,20 +10,19 @@ The pagination is set to 10 items per page.
 
 In the widget configuration, you can set the number of posts you want to include, and disable the plugin's css if you want to apply your own.
 
-More features coming in next releases.
+More features coming in future releases.
 
-== Installation ==
+## Installation
 
 1. Upload `wp-news-feed-widget` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Go to 'Appearance' -> 'Widgets' and drop it in your desired widget zone to configure
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= What are the css classes to style the widget ? =
+### What are the css classes to style the widget ?
 
-
-`/* ul list wrapper */
+```/* ul list wrapper */
 .wp-newsfw-list {}
 
 /* list items */
@@ -50,18 +40,12 @@ More features coming in next releases.
 /* next page item */
 .next {
     margin-left: 5px;
-}`
+}```
 
-= What about foo bar? =
+### Why can't I configure more options ?
+More configuration is coming in future releases.
 
-Answer to foo bar dilemma.
+## Changelog
 
-== Screenshots ==
-
-1. Widget configuration
-2. Widget display
-
-== Changelog ==
-
-= 1.0 =
+### 1.0
 * Initial release.
