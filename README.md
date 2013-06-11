@@ -46,6 +46,12 @@ More features coming in future releases.
 More configuration is coming in future releases.
 
 ## Changelog
-
+### 1.1
+* changed basic css
+* new js script for pagination + minification
+* HTML5 time markup for time/date
+* new option : posts per page
+* new string translated in french
+ 
 ### 1.0
 * Initial release.
