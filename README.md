@@ -6,9 +6,7 @@ A simple news feed widget with pagination
 
 WP News feed widget is a simple news feed widget, with pagination, to display the latest news on your website. It will display a list of your latest news titles, with the publication time (if today) or the publication date next to it.
 
-The pagination is set to 10 items per page.
-
-In the widget configuration, you can set the number of posts you want to include, and disable the plugin's css if you want to apply your own.
+In the widget configuration, you can set the number of posts you want to include, the number of posts per page and disable the plugin's css if you want to apply your own.
 
 More features coming in future releases.
 
@@ -31,8 +29,9 @@ More features coming in future releases.
 /* ul pager wrapper */
 .pager {}
 
-/* pager item */
-.pager li {}
+/* pager items */
+.pager a,
+.pager span {}
 
 /* previous page item */
 .prev {}
