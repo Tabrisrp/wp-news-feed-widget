@@ -3,7 +3,7 @@
 Plugin Name: WP News Feed Widget
 Plugin URI: http://remyperona.fr/wp-news-feed-widget/
 Description: A news feed widget with pagination
-Version: 1.0
+Version: 1.1
 Author: Rémy Perona
 Author URI: http://remyperona.fr
 Author Email: remperona@gmail.com
