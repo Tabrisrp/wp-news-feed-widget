@@ -72,6 +72,8 @@ Options & customization can be added with the filter & hooks available, or with 
 * New default styles for light and dark themes
 
 ### 1.1.1
+* Security fixes
+* Wrong label corrected in admin form
 
 ### 1.1
 * changed basic css
