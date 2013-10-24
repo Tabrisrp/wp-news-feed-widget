@@ -45,7 +45,7 @@ The widget is customizable through a lot of filters and actions hooks.
 
 /* list items */
 .wp-newsfw-item {}
-``
+```
 
 ### Why can't I configure more options ?
 
