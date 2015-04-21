@@ -9,7 +9,6 @@ Author URI: http://remyperona.fr
 Author Email: remperona@gmail.com
 Text Domain: wp-news-feed-widget
 Domain Path: /lang
-Network: true
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
